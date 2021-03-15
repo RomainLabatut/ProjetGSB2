@@ -84,10 +84,8 @@ form{
     border-right: none;
     outline-style: none;
     border: solid black 0.1rem;
-
-
 }
-select {
+.form-controlville {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -119,6 +117,7 @@ select {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
+    margin-left: 50px;
     height: 40px;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
@@ -129,3 +128,79 @@ select {
     background-color: #4b93db;
     border: solid black;
 }
+
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cinzel', serif;
+    font-size: 60px;
+}
+
+
+#list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    overflow: auto;
+    flex-wrap: wrap;
+} 
+
+
+/* ul{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.cover{
+    border-radius: 20%;
+}
+.card-title{
+    font-size: 20px;
+}
+
+.card{
+    border: double rgb(75, 73, 73);
+    align-items: center;
+    margin: 20px;
+    padding: 5px;
+    background-color: #123E6A;
+    border-radius: 30px;
+    box-shadow: 12px 12px 2px 1px #123E6A;
+}
+
+.scroll{
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
