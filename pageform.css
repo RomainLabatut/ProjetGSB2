@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    background-color: #66A3D3;
+
+}
+
+nav{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: rgba(244, 234, 234, 0.56);
+    /* background: linear-gradient(90deg, rgba(176,219,199,1) 0%, rgba(81,167,161,1) 35%, rgba(0,133,124,1) 100%); */
+    border-bottom: solid rgba(62, 77, 68, 0.8);
+    box-shadow: 0px 6px 8px 0px rgba(62, 77, 68, 0.5);
+}
+
+#menu{
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 8px;
+}
+li{
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* FORMULAIRE */
+
+
+
+h2{
+    font-size: 36px;
+    margin-left: 154px;
+    text-align: center;
+}
+
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 40px;
+}
+
+.form-controlprenom {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 50px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    outline-style: none;
+    border: solid black 0.1rem;
+    border-right: none;
+
+
+}
+.form-controlnom {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 50px;
+    border-right: none;
+    outline-style: none;
+    border: solid black 0.1rem;
+
+
+}
+.form-controlspe {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 50px;
+    border-right: none;
+    outline-style: none;
+    border: solid black 0.1rem;
+
+
+}
+select {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 56px;
+    width: 90px;
+    border-left: none;
+    outline-style: none;
+    border: solid black 0.1rem;
+}
+
+.form-check{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    margin-right: -27px;
+    height: 55px;
+    margin-top: 5px;
+    border: solid black 0.1rem;
+}
+.form-controlevisite{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 40px;
+}
+.bouton{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: White
+
+}
+.bouton:hover{
+    background-color: #4b93db;
+    border: solid black;
+}

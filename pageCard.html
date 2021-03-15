@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche Praticien</title>
+    <link rel="stylesheet" href="pageCard.css">
+</head>
+<body>
+  <!-- Menu -->
+  <nav>
+    <img src="GSB LOGO.png" alt="">
+
+
+
+
+     <!-- FORMULAIRE -->
+<form class="form">
+ 
+  <div>
+    <input type="text" class="form-controlprenom" id="prenom" placeholder="Prenom">
+  </div>
+  <div>
+    <input type="text" class="form-controlnom" id="nom" placeholder="Nom">
+  </div>
+  <div>
+    <input type="text" class="form-controlspe" id="specialite" placeholder="Specialite">
+  </div>
+  <div>
+    <select id="inputCity" class="form-controlville">
+      <option selected>Marseille</option>
+      <option>Paris</option>
+      <option>Lyon</option>
+    </select>
+  </div>
+    <div class="form-check">
+      <label class="form-check-label" for="flexCheckDefault"> <strong> Praticien déjà visité ? </strong> </label>
+      <input class="form-controlevisite" type="checkbox" value="" id="flexCheckDefault">
+
+    </div>
+  <div>
+<button id="#recherche" type="#" class="bouton">Rechercher</button>
+  </div>
+</form>
+
+<ul id="menu">
+  <li> <a href="#">Ajouter un praticien</a> </li>
+  <li><a href="#">Mon Compte</a></li>
+  <li><a href="indexgsb.html">Déconnexion</a></li>
+</ul>
+
+</nav>
+ <!-- CARD -->
+
+ <h2> Votre recherche de praticiens</h2>
+  
+ <br>
+
+  <ul id="list">
+
+    </ul>
+
+    
+    <script src="pageForm.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<div class="grid" id="recherche">
+    <div class="grid__column grid__column--12 grid__column--#--sm " style="border : solid 0.15rem rgb(165, 162, 162);">
+    
+      <img src="PraticienF.jfif" class="card-img-top" alt="...">
+     <div class="card-body">
+       <h3 class="card-title"></h3>
+       <p class="card-text"></p>
+     </div>
+     <ul class="list-group list-group-flush">
+       <li class="list-group-item"></li>
+       <li class="list-group-item"></li>
+       <li class="list-group-item"></li>
+     </ul>
+     <div class="card-body">
+       <a href="#" class="card-link"></a>
+     </div>
+   </div>
+
+   <div class="grid__column grid__column--12 grid__column--#--sm " style="border : solid 0.15rem black;">
+     <img src="PraticienF.jfif" class="card-img-top" alt="...">
+     <div class="card-body">
+       <h3 class="card-title"></h3>
+       <p class="card-text"></p>
+     </div>
+     <ul class="list-group list-group-flush">
+       <li class="list-group-item"></li>
+       <li class="list-group-item"></li>
+       <li class="list-group-item"></li>
+     </ul>
+     <div class="card-body">
+       <a href="#" class="card-link"></a>
+     </div>
+   </div>
+
+   <div class="grid__column grid__column--12 grid__column--#--sm " style="border : solid 0.15rem rgb(165, 162, 162);">
+     <img src="PraticienH.jfif" class="card-img-top" alt="...">
+     <div class="card-body">
+       <h3 class="card-title"></h3>
+       <p class="card-text"></p>
+     </div>
+     <ul class="list-group list-group-flush">
+       <li class="list-group-item"></li>
+       <li class="list-group-item"></li>
+       <li class="list-group-item"></li>
+     </ul>
+     <div class="card-body">
+       <a href="#" class="card-link"></a>
+     </div>
+   </div>
+ </div>
+
+ <div class="grid">
+   <div class="grid__column grid__column--12 grid__column--#--sm" style="border : solid 0.15rem rgb(165, 162, 162);">
+     <img src="PraticienF.jfif" class="card-img-top" alt="...">
+     <div class="card-body">
+       <h3 class="card-title"></h3>
+       <p class="card-text"></p>
+     </div>
+     <ul class="list-group list-group-flush">
+       <li class="list-group-item"></li>
+       <li class="list-group-item"></li>
+       <li class="list-group-item"></li>
+     </ul>
+     <div class="card-body">
+       <a href="#" class="card-link"></a>
+     </div>
+   </div>
+
+   <div class="grid__column grid__column--12 grid__column--#--sm" style="border : solid 0.15rem black;">
+     <img src="PraticienH.jfif" class="card-img-top" alt="...">
+     <div class="card-body">
+       <h3 class="card-title"></h3>
+       <p class="card-text"></p>
+     </div>
+     <ul class="list-group list-group-flush">
+       <li class="list-group-item"></li>
+       <li class="list-group-item"></li>
+       <li class="list-group-item"></li>
+     </ul>
+     <div class="card-body">
+       <a href="#" class="card-link"></a>
+     </div>
+   </div>
+
+   <div class="grid__column grid__column--12 grid__column--#--sm" style="border : solid 0.15rem  rgb(165, 162, 162);">
+     <img src="PraticienF.jfif" class="card-img-top" alt="...">
+     <div class="card-body">
+       <h3 class="card-title"></h3>
+       <p class="card-text"></p>
+     </div>
+     <ul class="list-group list-group-flush">
+       <li class="list-group-item"></li>
+       <li class="list-group-item"></li>
+       <li class="list-group-item"></li>
+     </ul>
+     <div class="card-body">
+       <a href="#" class="card-link"></a>
+     </div>
+   </div>
+ </div>
+
+
+ <div class="grid">
+   <div class="grid__column grid__column--12 grid__column--#--sm" style="border : solid 0.15rem rgb(165, 162, 162);">
+     <img src="PraticienH.jfif" class="card-img-top" alt="...">
+     <div class="card-body">
+       <h3 class="card-title"></h3>
+       <p class="card-text"></p>
+     </div>
+     <ul class="list-group list-group-flush">
+       <li class="list-group-item"></li>
+       <li class="list-group-item"></li>
+       <li class="list-group-item"></li>
+     </ul>
+     <div class="card-body">
+       <a href="#" class="card-link"></a>
+     </div>
+   </div>
+
+   <div class="grid__column grid__column--12 grid__column--#--sm" style="border : solid 0.15rem black;">
+     <img src="PraticienF.jfif" class="card-img-top" alt="...">
+     <div class="card-body">
+       <h3 class="card-title"></h3>
+       <p class="card-text"></p>
+     </div>
+     <ul class="list-group list-group-flush">
+       <li class="list-group-item"></li>
+       <li class="list-group-item"></li>
+       <li class="list-group-item"></li>
+     </ul>
+     <div class="card-body">
+       <a href="#" class="card-link"></a>
+     </div>
+   </div>
+
+   <div class="grid__column grid__column--12 grid__column--#--sm" style="border : solid 0.15rem rgb(165, 162, 162);">
+     <img src="PraticienH.jfif" class="card-img-top" alt="...">
+     <div class="card-body">
+       <h3 class="card-title"></h3>
+       <p class="card-text"></p>
+     </div>
+     <ul class="list-group list-group-flush">
+       <li class="list-group-item"></li>
+       <li class="list-group-item"></li>
+       <li class="list-group-item"></li>
+     </ul>
+     <div class="card-body">
+       <a href="#" class="card-link"></a>
+     </div>
+   </div>
+ </div> -->
